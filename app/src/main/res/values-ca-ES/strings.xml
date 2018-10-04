@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">Canviar contrassenya</string>
+    <string name="action_newNote">Afegir nova nota</string>
+    <string name="action_about">Sobre nosaltres</string>
+    <string name="hint_field_new_password">Nova contrassenya</string>
+    <string name="hint_field_conf_password">Confirmar contrassenya</string>
+    <string name="title_changeMasterPass">Introduir nova contrassenya mestre:</string>
+    <string name="title_databaseLocation">Introduir el nom de la base de dades :</string>
+    <string name="desc_fileManager">Obrir administrador d\'arxius</string>
+    <string name="butt_open">Obrir</string>
+    <string name="butt_create">Crear</string>
+    <string name="hint_field_password">Contrassenya</string>
+    <string name="title_note">Titol:</string>
+    <string name="tags_note">Etiqueta:</string>
+    <string name="note_note">Nota:</string>
+    <string name="hint_field_title">Titol</string>
+    <string name="hint_field_tags">Etiqueta1, Etiqueta2, Etiqueta3&#8230;</string>
+    <string name="action_save">Desar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Esborrar</string>
+    <string name="toast_success_newNote">Creat correctament</string>
+    <string name="toast_fatalError">ERROR FATAL!</string>
+    <string name="toast_IOError">ERROR E/S!</string>
+    <string name="title_password">Introdueix la contrassenya</string>
+    <string name="toast_emptyPassword">Contrassenya buida no permesa</string>
+    <string name="toast_wrongPassword">Contrassenya incorrecte o base de dades corrupte</string>
+    <string name="toast_wrongPath">Error llegint la base de dades\nComprova si el directori es correcte</string>
+    <string name="toast_errorCreatingDB">Error al crear la base de dades\nComprova si el directori es correcte</string>
+    <string name="toast_wrongNewPassword">Contrassenyes no coincideixen</string>
+    <string name="toast_fieldsNotFilled">Els camps no han estat completats correctament</string>
+    <string name="dialog_backNoSave">Els seus canvis no seran guardats\nEstas segur de sortir?</string>
+    <string name="toast_success_newDB">Base de dades creada correctament</string>
+    <string name="toast_success_changePsw">Contrassenya correctament canviada</string>
+    <string name="action_filter">Filtrar per etiqueta</string>
+    <string name="dialog_deleteNote">Estas segur d\'esborrar aquesta nota</string>
+    <string name="title_deleteNote">Esborrar nota</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="action_sort">Ordenar llista</string>
+    <string name="toast_sort_alphabet">Ordre alfabetic</string>
+    <string name="toast_sort_creation">Ordre de creacio</string>
+    <string name="toast_success_deleteNote">Esborrat correctament</string>
+    <string name="dialog_backClose">Estas segur de tancar la base de dades?</string>
+    <string name="title_backClose">Tancar</string>
+    <string name="toast_version">Versio Notecrypt</string>
+    <string name="toast_createdBy">\nCreat per Ludovico de Nittis</string>
+    <string name="toast_errorVersion">Error trobant la versio!</string>
+    <string name="no_notes">No hi ha cap nota.\nPrem el boto + per afegir una nota</string>
+    <string name="no_textNote">Nota de text buida.</string>
+    <string name="toast_errorInvalidKey">Error! Probablement la contrassenya introduida conte alguns caracters no permesos</string>
+    <string name="sure">D\'acord</string>
+    <string name="sure_rate">Valora ara</string>
+    <string name="later">Potser despres</string>
+    <string name="rate">Valora</string>
+    <string name="rate_message">Si li agrada Note Crypt, agrairia moltissim la seva valoracio a la Play Store. Moltes gracies.</string>
+    <string name="upgrade_message">Siusplau, considera donar el preu de un cafe comprant la version Donate/Pro de Note Crypt.\nAmb dita donacio tambe rebra caracteristiques adicionals</string>
+    <string name="action_donate">Donar</string>
+    <string name="pref_drawer">Filtre d\'animacio al inici.</string>
+    <string name="pref_drawer_summ">Mostrar l\'animacio del calaix del filtre a la dreta</string>
+    <string name="action_settings">Ajustaments</string>
+    <string name="title_recentDB">Base de dades en el directori per defecte i recents (click per obrir):</string>
+    <string name="deleteRecent_message">Esborrar la base de dades?\nAquesta accio es irreversible.</string>
+    <string name="pref_textSize">Canviar la mida de font per a les notes</string>
+    <string-array name="pref_textSize_entries">
+        <item >Molt petita</item>
+        <item >Petita</item>
+        <item >Normal</item>
+        <item >Gran</item>
+        <item >Molt gran</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">Cercar</string>
+    <string name="action_starred">Important</string>
+    <string name="action_remove">Eliminar</string>
+    <string name="action_overwrite">Sobreescriure</string>
+    <string name="overwrite_message">Ja existeix un fitxer amb aquest nom, si continues sera sobeescrit.</string>
+    <string name="warning">Alerta</string>
+    <string name="localeWarning">Es altament recomenable unicament fer servir l\'alfabet llati (A-Z), nombres i simbols per la contrassenya</string>
+    <string name="action_share">Compartir</string>
+    <string name="explain_external_permission">Note Crypt necessita permis per llegir i escriure a la memoria del telefon per emmagatzemar les seves notes. Si ha denegat el permis permanentment pot concedir-lo de nou accedint a Configuracio->Aplicacions->Note Crypt</string>
+</resources>
